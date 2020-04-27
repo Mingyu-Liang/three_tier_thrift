@@ -1,0 +1,247 @@
+{
+  "service_0" : {
+    "server_addr" : "service_0",
+    "server_port" : 9000,
+    "rpcs_receive" : [0],
+    "rpcs_send" : [1,2,3],
+    "scaler" : 1
+  },
+  "service_1" : {
+    "server_addr" : "service_1",
+    "server_port" : 9000,
+    "rpcs_receive" : [1],
+    "rpcs_send" : [4],
+    "scaler" : 1
+  },
+  "service_2" : {
+    "server_addr" : "service_2",
+    "server_port" : 9000,
+    "rpcs_receive" : [2],
+    "rpcs_send" : [5,6,7],
+    "scaler" : 1
+  },
+  "service_3" : {
+    "server_addr" : "service_3",
+    "server_port" : 9000,
+    "rpcs_receive" : [3],
+    "rpcs_send" : [],
+    "scaler" : 1
+  },
+  "service_4" : {
+    "server_addr" : "service_4",
+    "server_port" : 9000,
+    "rpcs_receive" : [4],
+    "rpcs_send" : [],
+    "scaler" : 1
+  },
+  "service_5" : {
+    "server_addr" : "service_5",
+    "server_port" : 9000,
+    "rpcs_receive" : [5],
+    "rpcs_send" : [8,9,10],
+    "scaler" : 1
+  },
+  "service_6" : {
+    "server_addr" : "service_6",
+    "server_port" : 9000,
+    "rpcs_receive" : [6],
+    "rpcs_send" : [11,12,13,14],
+    "scaler" : 1
+  },
+  "service_7" : {
+    "server_addr" : "service_7",
+    "server_port" : 9000,
+    "rpcs_receive" : [7],
+    "rpcs_send" : [],
+    "scaler" : 1
+  },
+  "service_8" : {
+    "server_addr" : "service_8",
+    "server_port" : 9000,
+    "rpcs_receive" : [8],
+    "rpcs_send" : [15],
+    "scaler" : 1
+  },
+  "service_9" : {
+    "server_addr" : "service_9",
+    "server_port" : 9000,
+    "rpcs_receive" : [9],
+    "rpcs_send" : [16,17],
+    "scaler" : 1
+  },
+  "service_10" : {
+    "server_addr" : "service_10",
+    "server_port" : 9000,
+    "rpcs_receive" : [10,11],
+    "rpcs_send" : [18],
+    "scaler" : 1
+  },
+  "service_11" : {
+    "server_addr" : "service_11",
+    "server_port" : 9000,
+    "rpcs_receive" : [12],
+    "rpcs_send" : [19],
+    "scaler" : 1
+  },
+  "service_12" : {
+    "server_addr" : "service_12",
+    "server_port" : 9000,
+    "rpcs_receive" : [13],
+    "rpcs_send" : [20],
+    "scaler" : 1
+  },
+  "service_13" : {
+    "server_addr" : "service_13",
+    "server_port" : 9000,
+    "rpcs_receive" : [14],
+    "rpcs_send" : [21],
+    "scaler" : 1
+  },
+  "service_14" : {
+    "server_addr" : "service_14",
+    "server_port" : 9000,
+    "rpcs_receive" : [15],
+    "rpcs_send" : [],
+    "scaler" : 1
+  },
+  "service_15" : {
+    "server_addr" : "service_15",
+    "server_port" : 9000,
+    "rpcs_receive" : [16],
+    "rpcs_send" : [22],
+    "scaler" : 1
+  },
+  "service_16" : {
+    "server_addr" : "service_16",
+    "server_port" : 9000,
+    "rpcs_receive" : [17],
+    "rpcs_send" : [23],
+    "scaler" : 1
+  },
+  "service_17" : {
+    "server_addr" : "service_17",
+    "server_port" : 9000,
+    "rpcs_receive" : [18],
+    "rpcs_send" : [24],
+    "scaler" : 1
+  },
+  "service_18" : {
+    "server_addr" : "service_18",
+    "server_port" : 9000,
+    "rpcs_receive" : [19],
+    "rpcs_send" : [25],
+    "scaler" : 1
+  },
+  "service_19" : {
+    "server_addr" : "service_19",
+    "server_port" : 9000,
+    "rpcs_receive" : [20],
+    "rpcs_send" : [26],
+    "scaler" : 1
+  },
+  "service_20" : {
+    "server_addr" : "service_20",
+    "server_port" : 9000,
+    "rpcs_receive" : [21],
+    "rpcs_send" : [27],
+    "scaler" : 1
+  },
+  "service_21" : {
+    "server_addr" : "service_21",
+    "server_port" : 9000,
+    "rpcs_receive" : [22],
+    "rpcs_send" : [28],
+    "scaler" : 1
+  },
+  "service_22" : {
+    "server_addr" : "service_22",
+    "server_port" : 9000,
+    "rpcs_receive" : [23],
+    "rpcs_send" : [29],
+    "scaler" : 1
+  },
+  "service_23" : {
+    "server_addr" : "service_23",
+    "server_port" : 9000,
+    "rpcs_receive" : [24],
+    "rpcs_send" : [],
+    "scaler" : 1
+  },
+  "service_24" : {
+    "server_addr" : "service_24",
+    "server_port" : 9000,
+    "rpcs_receive" : [25],
+    "rpcs_send" : [30],
+    "scaler" : 1
+  },
+  "service_25" : {
+    "server_addr" : "service_25",
+    "server_port" : 9000,
+    "rpcs_receive" : [26],
+    "rpcs_send" : [31],
+    "scaler" : 1
+  },
+  "service_26" : {
+    "server_addr" : "service_26",
+    "server_port" : 9000,
+    "rpcs_receive" : [27],
+    "rpcs_send" : [],
+    "scaler" : 1
+  },
+  "service_27" : {
+    "server_addr" : "service_27",
+    "server_port" : 9000,
+    "rpcs_receive" : [28],
+    "rpcs_send" : [32],
+    "scaler" : 1
+  },
+  "service_28" : {
+    "server_addr" : "service_28",
+    "server_port" : 9000,
+    "rpcs_receive" : [29],
+    "rpcs_send" : [33],
+    "scaler" : 1
+  },
+  "service_29" : {
+    "server_addr" : "service_29",
+    "server_port" : 9000,
+    "rpcs_receive" : [30],
+    "rpcs_send" : [],
+    "scaler" : 1
+  },
+  "service_30" : {
+    "server_addr" : "service_30",
+    "server_port" : 9000,
+    "rpcs_receive" : [31],
+    "rpcs_send" : [],
+    "scaler" : 1
+  },
+  "service_31" : {
+    "server_addr" : "service_31",
+    "server_port" : 9000,
+    "rpcs_receive" : [32],
+    "rpcs_send" : [],
+    "scaler" : 1
+  },
+  "service_32" : {
+    "server_addr" : "service_32",
+    "server_port" : 9000,
+    "rpcs_receive" : [33],
+    "rpcs_send" : [34],
+    "scaler" : 1
+  },
+  "service_33" : {
+    "server_addr" : "service_33",
+    "server_port" : 9000,
+    "rpcs_receive" : [34],
+    "rpcs_send" : [35],
+    "scaler" : 1
+  },
+  "service_34" : {
+    "server_addr" : "service_34",
+    "server_port" : 9000,
+    "rpcs_receive" : [35],
+    "rpcs_send" : [],
+    "scaler" : 1
+  }
+}

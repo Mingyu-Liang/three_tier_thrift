@@ -1,0 +1,64 @@
+version: "3"
+services:  
+  nginx-web-server:
+    image: yg397/openresty-thrift:xenial
+    hostname: nginx-web-server
+    ports:
+      - 8010:8080
+    restart: always
+    volumes:
+      - ./nginx-web-server/lua-scripts:/usr/local/openresty/nginx/lua-scripts
+      - ./nginx-web-server/conf/nginx.conf:/usr/local/openresty/nginx/conf/nginx.conf
+      - ./nginx-web-server/jaeger-config.json:/usr/local/openresty/nginx/jaeger-config.json
+      - ./gen-lua:/gen-lua
+      
+  jaeger:
+    image: jaegertracing/all-in-one:latest
+    hostname: jaeger
+    ports:
+      - 16620:16686
+      # - 9411:9411
+    restart: always
+    # environment:
+    #   - COLLECTOR_ZIPKIN_HTTP_PORT=9411
+  
+  service_1:
+    image: ml2585/three_tier_thrift
+    hostname: service_1
+    deploy:
+      replicas: 2
+    restart: always
+    entrypoint: service_1
+    volumes:
+      - ./config:/auto_microservices/config
+
+  service_0:
+    image: ml2585/three_tier_thrift
+    hostname: service_0
+    deploy:
+      replicas: 1
+    restart: always
+    entrypoint: service_0
+    volumes:
+      - ./config:/auto_microservices/config
+
+  service_3:
+    image: ml2585/three_tier_thrift
+    hostname: service_3
+    deploy:
+      replicas: 2
+    restart: always
+    entrypoint: service_3
+    volumes:
+      - ./config:/auto_microservices/config
+
+  service_2:
+    image: ml2585/three_tier_thrift
+    hostname: service_2
+    deploy:
+      replicas: 2
+    restart: always
+    entrypoint: service_2
+    volumes:
+      - ./config:/auto_microservices/config
+
