@@ -16,7 +16,7 @@ services:
     image: jaegertracing/all-in-one:latest
     hostname: jaeger
     ports:
-      - 16620:16686
+      - 16610:16686
       # - 9411:9411
     restart: always
     # environment:
@@ -25,8 +25,6 @@ services:
   service_1:
     image: ml2585/three_tier_thrift
     hostname: service_1
-    deploy:
-      replicas: 2
     restart: always
     entrypoint: service_1
     volumes:
@@ -35,8 +33,6 @@ services:
   service_0:
     image: ml2585/three_tier_thrift
     hostname: service_0
-    deploy:
-      replicas: 1
     restart: always
     entrypoint: service_0
     volumes:
@@ -45,8 +41,6 @@ services:
   service_3:
     image: ml2585/three_tier_thrift
     hostname: service_3
-    deploy:
-      replicas: 2
     restart: always
     entrypoint: service_3
     volumes:
@@ -55,8 +49,6 @@ services:
   service_2:
     image: ml2585/three_tier_thrift
     hostname: service_2
-    deploy:
-      replicas: 2
     restart: always
     entrypoint: service_2
     volumes:
